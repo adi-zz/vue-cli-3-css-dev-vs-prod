@@ -16,6 +16,9 @@ export default {
 }
 </script>
 <style lang="stylus">
+.hello::before
+  content 'css content coming from parent component App'
+
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased

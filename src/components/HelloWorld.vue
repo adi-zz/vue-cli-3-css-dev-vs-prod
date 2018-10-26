@@ -40,6 +40,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="stylus">
+.hello::before
+  content 'css content coming from child component HelloWorld'
+
 h3
   margin 40px 0 0
 
